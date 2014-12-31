@@ -40,6 +40,43 @@
         </dict>
         <dict>
             <key>match</key>
+            <string>^([\d\- :.]*) ([\d\-]*)\/(.*) (E)\/(.*)\﹕ (.*)</string>
+            <key>captures</key>
+            <dict>
+                <key>1</key>
+                <dict>
+                    <key>name</key>
+                    <string>constant.other.adb.timestamp</string>
+                </dict>
+                <key>2</key>
+                <dict>
+                    <key>name</key>
+                    <string>constant.other.adb</string>
+                </dict>
+                <key>3</key>
+                <dict>
+                    <key>name</key>
+                    <string>entity.name.function</string>
+                </dict>
+                <key>4</key>
+                <dict>
+                    <key>name</key>
+                    <string>invalid.illegal.adb</string>
+                </dict>
+                <key>5</key>
+                <dict>
+                    <key>name</key>
+                    <string>constant.other.adb</string>
+                </dict>
+                <key>6</key>
+                <dict>
+                    <key>name</key>
+                    <string>invalid.illegal.adb</string>
+                </dict>
+            </dict>
+        </dict>
+        <dict>
+            <key>match</key>
             <string>^([\d\- :.]*)(D)\/(.*)\( *(\d+)\): (.*)</string>
             <key>captures</key>
             <dict>
@@ -64,6 +101,43 @@
                     <string>constant.other.adb</string>
                 </dict>
                 <key>5</key>
+                <dict>
+                    <key>name</key>
+                    <string>comment.adb</string>
+                </dict>
+            </dict>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>^([\d\- :.]*) ([\d\-]*)\/(.*) (D)\/(.*)\﹕ (.*)</string>
+            <key>captures</key>
+            <dict>
+                <key>1</key>
+                <dict>
+                    <key>name</key>
+                    <string>constant.other.adb.timestamp</string>
+                </dict>
+                <key>2</key>
+                <dict>
+                    <key>name</key>
+                    <string>constant.other.adb</string>
+                </dict>
+                <key>3</key>
+                <dict>
+                    <key>name</key>
+                    <string>entity.name.function</string>
+                </dict>
+                <key>4</key>
+                <dict>
+                    <key>name</key>
+                    <string>comment.adb</string>
+                </dict>
+                <key>5</key>
+                <dict>
+                    <key>name</key>
+                    <string>constant.other.adb</string>
+                </dict>
+                <key>6</key>
                 <dict>
                     <key>name</key>
                     <string>comment.adb</string>
@@ -104,6 +178,43 @@
         </dict>
         <dict>
             <key>match</key>
+            <string>^([\d\- :.]*) ([\d\-]*)\/(.*) (W)\/(.*)\﹕ (.*)</string>
+            <key>captures</key>
+            <dict>
+                <key>1</key>
+                <dict>
+                    <key>name</key>
+                    <string>constant.other.adb.timestamp</string>
+                </dict>
+                <key>2</key>
+                <dict>
+                    <key>name</key>
+                    <string>constant.other.adb</string>
+                </dict>
+                <key>3</key>
+                <dict>
+                    <key>name</key>
+                    <string>entity.name.function</string>
+                </dict>
+                <key>4</key>
+                <dict>
+                    <key>name</key>
+                    <string>keyword.adb</string>
+                </dict>
+                <key>5</key>
+                <dict>
+                    <key>name</key>
+                    <string>constant.other.adb</string>
+                </dict>
+                <key>6</key>
+                <dict>
+                    <key>name</key>
+                    <string>keyword.adb</string>
+                </dict>
+            </dict>
+        </dict>
+        <dict>
+            <key>match</key>
             <string>^([\d\- :.]*)(I)\/(.*)\( *(\d+)\): (.*)</string>
             <key>captures</key>
             <dict>
@@ -136,6 +247,43 @@
         </dict>
         <dict>
             <key>match</key>
+            <string>^([\d\- :.]*) ([\d\-]*)\/(.*) (I)\/(.*)\﹕ (.*)</string>
+            <key>captures</key>
+            <dict>
+                <key>1</key>
+                <dict>
+                    <key>name</key>
+                    <string>constant.other.adb.timestamp</string>
+                </dict>
+                <key>2</key>
+                <dict>
+                    <key>name</key>
+                    <string>constant.other.adb</string>
+                </dict>
+                <key>3</key>
+                <dict>
+                    <key>name</key>
+                    <string>entity.name.function</string>
+                </dict>
+                <key>4</key>
+                <dict>
+                    <key>name</key>
+                    <string>entity.name.filename.adb</string>
+                </dict>
+                <key>5</key>
+                <dict>
+                    <key>name</key>
+                    <string>constant.other.adb</string>
+                </dict>
+                <key>6</key>
+                <dict>
+                    <key>name</key>
+                    <string>entity.name.filename.adb</string>
+                </dict>
+            </dict>
+        </dict>
+        <dict>
+            <key>match</key>
             <string>^([\d\- :.]*)(.)\/(.*)\( *(\d+)\): (.*)</string>
             <key>captures</key>
             <dict>
@@ -150,6 +298,33 @@
                     <string>entity.name.function</string>
                 </dict>
                 <key>4</key>
+                <dict>
+                    <key>name</key>
+                    <string>constant.other.adb</string>
+                </dict>
+            </dict>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>^([\d\- :.]*) ([\d\-]*)\/(.*) (.)\/(.*)\﹕ (.*)</string>
+            <key>captures</key>
+            <dict>
+                <key>1</key>
+                <dict>
+                    <key>name</key>
+                    <string>constant.other.adb.timestamp</string>
+                </dict>
+                <key>2</key>
+                <dict>
+                    <key>name</key>
+                    <string>constant.other.adb</string>
+                </dict>
+                <key>3</key>
+                <dict>
+                    <key>name</key>
+                    <string>entity.name.function</string>
+                </dict>
+                <key>5</key>
                 <dict>
                     <key>name</key>
                     <string>constant.other.adb</string>
